@@ -23,22 +23,6 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-
-#html_theme = ''
-
-#html_sidebars = {'**': ['searchbox.html', 'localtoc.html', 'globaltoc.html']}
-
-#html_theme_options = {
-#                        'site_name': 'Solutions',
-#                        'next_prev_link': True,
-#                        'html_last_updated_fmt': '%Y-%m-%d %H:%M:%S'
-#                        # 'base_url' = ''                            \\ DEFAULTS TO '/'
-#                     }
-
-#html_theme_options = {
-#  'version_selector': True,
-#}
-
 html_theme = "f5_sphinx_theme"
 html_theme_path = f5_sphinx_theme.get_html_theme_path()
 html_sidebars = {"**": ["searchbox.html", "localtoc.html", "globaltoc.html"]}
@@ -49,9 +33,6 @@ html_theme_options = {
 
 #html_last_updated_fmt = "%Y-%m-%d %H:%M:%S"
 
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
 copybutton_copy_empty_lines = False
