@@ -12,8 +12,6 @@ more lines
 
 line
 
-more
-
 finvser
 
 two
