@@ -8,8 +8,6 @@ The more we get together the happier we will be
 
 more lines
 
-line
-
 finvser
 
 two
