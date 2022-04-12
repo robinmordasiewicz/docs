@@ -27,3 +27,5 @@ canoe
 tubing
 
 fishing
+
+kayak
