@@ -25,3 +25,5 @@ kiting
 canoe
 
 tubing
+
+fishing
