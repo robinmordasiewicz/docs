@@ -1,45 +1,117 @@
-This is a CICD Website
-========================
+==============
+ F5 CNF
+==============
+
+.. toctree::
+   :titlesonly:
+   :maxdepth: 10
+   :glob:
+
+   lab-access/index.rst
+   deployment/index.rst
+   policies/index.rst
+   cicd/index.rst
+
+.. sidebar:: Title
+   :subtitle: Subtitle
+
+   Sidebar TESTING - indented lines comprise
+   the body of the sidebar, and are
+   interpreted as body elements.
+
+.. container:: hero-header-image
+
+   F5 Cloud Native Functions
+
+.. container:: youtube-hero
+
+   ..  youtube:: 7riGQIJRJgI
+       :width: 800
+       :height: 600
+
+.. container:: hero-header-block
+
+   Unleash the power of Kubernetes
+
+.. mermaid::
+   :caption: Figure 5: Pods in Zones
+
+   graph TB
+      subgraph "zoneA"
+          n1(Node1)
+          n2(Node2)
+      end
+      subgraph "zoneB"
+          n3(Node3)
+          n4(Node4)
+      end
+      subgraph "zoneC"
+          n5(Node5)
+          n6(Node6)
+      end
+      classDef plain fill:#ddd,stroke:#fff,stroke-width:4px,color:#000;
+      classDef k8s fill:#0E5C8D,stroke:#fff,stroke-width:4px,color:#fff;
+      classDef cluster fill:#fff,stroke:#bbb,stroke-width:2px,color:#0E5C8D;
+      class n1,n2,n3,n4,n5,n6 k8s;
+      class zoneA,zoneB,zoneC cluster;
 
 
-Cam you read the docs
+.. mermaid::
+   :caption: Figure 6: Ingress Controller
 
-The more we get together the happier we will be 
+   graph LR
+      UE([UE])-. 5G Radio Access .->ingress[Ingress];
+      ingress-->|routing rule|service[Service];
+      subgraph cluster
+      ingress;
+      service-->pod1[Pod];
+      service-->pod2[Pod];
+      end
+      classDef plain fill:#ddd,stroke:#fff,stroke-width:4px,color:#000;
+      classDef k8s fill:#0E5C8D,stroke:#fff,stroke-width:4px,color:#fff;
+      classDef cluster fill:#fff,stroke:#bbb,stroke-width:2px,color:#0E5C8D;
+      class ingress,service,pod1,pod2 k8s;
+      class UE plain;
+      class cluster cluster;
 
-more lines
 
-midnight
+.. container:: youtube-sidebar
 
-vulture
+   ..  youtube:: 7riGQIJRJgI
+       :width: 295
+       :height: 135
 
-rolling
+.. topic:: Your Topic Title
 
-leaves
+    Subsequent indented lines comprise
+    the body of the topic, and are
+    interpreted as body elements.
 
-passing down the line
+.. container:: topic
 
-surfing
+   F5 Cloud Native network functions.
 
-kiting
+#. Blue Items
 
-canoe
+   The first paragraph in an ordered list would be nice to have a gray background.
 
-tubing
+   .. code-block:: console
 
-fishing
+      $ kill -9 86
 
-kayak miner fourty niner
+   .. container:: orderedlistitem
 
-you are b a na na s
+      An orderedlistitem helps explain whats going on.
 
-tubes tires
+#. Red Items
 
-canadians and americans watersports kiters
+   The first paragraph in an ordered list would be nice to have a gray background.
 
-planes
+   .. code-block:: console
 
-puppies
+      $ kill -9 86
 
-power
+   .. container:: orderedlistitem
 
-puff
+      An orderedlistitem helps explain whats going on.
+

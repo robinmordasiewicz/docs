@@ -5,7 +5,7 @@
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 #SPHINXBUILD   = sphinx-multiversion
-SPHINXPROJ    = Docs
+SPHINXPROJ    = Sitemap
 SOURCEDIR     = .
 BUILDDIR      = _build
 
