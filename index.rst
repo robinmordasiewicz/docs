@@ -29,5 +29,3 @@ tubing
 fishing
 
 kayak
-
-nine
