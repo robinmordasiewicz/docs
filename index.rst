@@ -21,3 +21,5 @@ passing down the line
 surfing
 
 kiting
+
+canoe
