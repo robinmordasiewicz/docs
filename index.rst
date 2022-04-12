@@ -31,6 +31,3 @@ fishing
 kayak
 
 nine
-
-ten
-
