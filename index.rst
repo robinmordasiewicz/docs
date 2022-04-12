@@ -23,3 +23,5 @@ surfing
 kiting
 
 canoe
+
+tubing
